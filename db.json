@@ -1,5 +1,26 @@
 {
-  "users": [],
+  "users": [
+    {
+      "id": 1,
+      "name": "Myra"
+    },
+    {
+      "name": "Donna Weimann",
+      "id": 2
+    },
+    {
+      "name": "Ellis Kuvalis",
+      "id": 3
+    },
+    {
+      "name": "Ronnie Graham",
+      "id": 4
+    },
+    {
+      "name": "Jerald Feeney",
+      "id": 5
+    }
+  ],
   "albums": [],
   "photos": []
 }
