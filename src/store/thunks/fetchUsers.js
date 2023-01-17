@@ -1,5 +1,6 @@
 import { createAsyncThunk } from "@reduxjs/toolkit";
 import axios from "axios";
+import { pause } from "../../helpers/pause";
 import { BASE_URL } from "../../helpers/url";
 
 const fetchUsers = createAsyncThunk("users/fetch", async () => {
@@ -10,11 +11,5 @@ const fetchUsers = createAsyncThunk("users/fetch", async () => {
 
   return response.data;
 });
-
-const pause = (duration) => {
-  return new Promise((resolve) => {
-    setTimeout(resolve, duration);
-  });
-};
 
 export { fetchUsers };
